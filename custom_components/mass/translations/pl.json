@@ -24,7 +24,9 @@
           "tunein_enabled": "Włącz Tune-In jako dostawcę radia",
           "tunein_username": "Użytkownik Tune-In Radio",
           "filesystem_enabled": "Włącz obsługę muzyki z systemu plików",
-          "filesystem_directory": "Podaj katalog na dysku z muzyką."
+          "filesystem_directory": "Podaj katalog na dysku z muzyką.",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Podaj pełną ścieżkę do katalog na dysku z muzyką (np. /media). Pamiętaj że Home Assistant musi mieć dostęp do tego katalogu."
@@ -61,7 +63,9 @@
           "tunein_enabled": "Włącz Tune-In jako dostawcę radia",
           "tunein_username": "Użytkownik Tune-In Radio",
           "filesystem_enabled": "Włącz obsługę muzyki z systemu plików",
-          "filesystem_directory": "Podaj katalog na dysku z muzyką."
+          "filesystem_directory": "Podaj katalog na dysku z muzyką.",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Podaj pełną ścieżkę do katalog na dysku z muzyką (np. /media). Pamiętaj że Home Assistant musi mieć dostęp do tego katalogu."

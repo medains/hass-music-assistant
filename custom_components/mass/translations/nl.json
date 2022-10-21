@@ -24,7 +24,9 @@
           "tunein_enabled": "Tune-In Radio muziekprovider inschakelen",
           "tunein_username": "Gebruikersnaam voor Tune-In Radio",
           "filesystem_enabled": "Bestandssysteem provider inschakelen",
-          "filesystem_directory": "Bestandslocatie waar de muziekbestanden te vinden zijn."
+          "filesystem_directory": "Bestandslocatie waar de muziekbestanden te vinden zijn.",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Specificeer het volledige pad op de schijf waar de mediabestanden te vinden zijn, bijvoorbeeld '/media/muziek'. Home Assistant moet toegang hebben tot deze bestandslocatie."
@@ -61,7 +63,9 @@
           "tunein_enabled": "Tune-In Radio muziekprovider inschakelen",
           "tunein_username": "Gebruikersnaam voor Tune-In Radio",
           "filesystem_enabled": "Bestandssysteem provider inschakelen",
-          "filesystem_directory": "Bestandslocatie waar de muziekbestanden te vinden zijn."
+          "filesystem_directory": "Bestandslocatie waar de muziekbestanden te vinden zijn.",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Specificeer het volledige pad op de schijf waar de mediabestanden te vinden zijn, bijvoorbeeld '/media/muziek'. Home Assistant moet toegang hebben tot deze bestandslocatie."

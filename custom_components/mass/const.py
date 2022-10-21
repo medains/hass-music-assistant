@@ -29,6 +29,9 @@ CONF_FILE_ENABLED = "filesystem_enabled"
 CONF_FILE_DIRECTORY = "filesystem_directory"
 CONF_PLAYLISTS_DIRECTORY = "playlists_directory"
 
+CONF_PLEX_ENABLED = "plex_enabled"
+CONF_PLEX_TOKEN = "plex_token"
+
 CONF_MUTE_POWER_PLAYERS = "mute_power_players"
 
 

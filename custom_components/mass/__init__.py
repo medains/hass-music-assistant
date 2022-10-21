@@ -42,6 +42,8 @@ from .const import (
     CONF_YTMUSIC_ENABLED,
     CONF_YTMUSIC_PASSWORD,
     CONF_YTMUSIC_USERNAME,
+    CONF_PLEX_ENABLED,
+    CONF_PLEX_TOKEN,
     DOMAIN,
     DOMAIN_EVENT,
 )
@@ -136,6 +138,14 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
 
     # TODO: adjust config flow to support creating multiple provider entries
     providers = []
+
+    if conf.get(CONF_PLEX_ENABLED):
+        providers.append(
+            MusicProviderConfig(
+                ProviderType.PLEX,
+                token=conf.get(CONF_PLEX_TOKEN),
+            )
+        )
 
     if conf.get(CONF_SPOTIFY_ENABLED):
         providers.append(

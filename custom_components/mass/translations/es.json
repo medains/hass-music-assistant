@@ -24,7 +24,9 @@
           "tunein_enabled": "Habilita el proveedor Tune-In Radio",
           "tunein_username": "Usuario para Tune-In Radio",
           "filesystem_enabled": "Habilita el proveedor de ficheros locales",
-          "filesystem_directory": "Directorio del disco donde tienes tus archivos de música."
+          "filesystem_directory": "Directorio del disco donde tienes tus archivos de música.",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Especifica la ruta completa del disco donde tienes almancenados los ficheros de audio (ej. /media). Ten en cuenta que Home Assistant tiene que tener acceso a esta ruta."
@@ -61,7 +63,9 @@
           "tunein_enabled": "Habilita el proveedor Tune-In Radio",
           "tunein_username": "Usuario para Tune-In Radio",
           "filesystem_enabled": "Habilita el proveedor de ficheros locales",
-          "filesystem_directory": "Directorio del disco donde tienes tus archivos de música."
+          "filesystem_directory": "Directorio del disco donde tienes tus archivos de música.",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Especifica la ruta completa del disco donde tienes almancenados los ficheros de audio (ej. /media). Ten en cuenta que Home Assistant tiene que tener acceso a esta ruta."

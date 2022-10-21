@@ -19,7 +19,9 @@
           "tunein_enabled": "Tune-In Rádió szolgáltatás",
           "tunein_username": "Tune-In felhasználónév",
           "filesystem_enabled": "Saját fájlrendszer szolgáltatás",
-          "filesystem_directory": "Mappa a zenefájlokkal"
+          "filesystem_directory": "Mappa a zenefájlokkal",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Adja meg a teljes elérési útvonalat ahol a fájlok találhatók (pl. /media). Home Assistantnak ezt el kell tudni érnie."
@@ -47,7 +49,9 @@
           "tunein_enabled": "Tune-In Rádió szolgáltatás",
           "tunein_username": "Tune-In felhasználónév",
           "filesystem_enabled": "Saját fájlrendszer szolgáltatás",
-          "filesystem_directory": "Mappa a zenefájlokkal"
+          "filesystem_directory": "Mappa a zenefájlokkal",
+          "plex_enabled": "Enable Plex music provider",
+          "plex_token": "Access Token for Plex"
         },
         "data_description": {
           "filesystem_directory": "Adja meg a teljes elérési útvonalat ahol a fájlok találhatók (pl. /media). Home Assistantnak ezt el kell tudni érnie."

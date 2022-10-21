@@ -35,6 +35,8 @@ from .const import (
     CONF_YTMUSIC_ENABLED,
     CONF_YTMUSIC_PASSWORD,
     CONF_YTMUSIC_USERNAME,
+    CONF_PLEX_ENABLED,
+    CONF_PLEX_TOKEN,
     DEFAULT_NAME,
     DOMAIN,
 )
@@ -62,6 +64,8 @@ DEFAULT_CONFIG = {
     CONF_YTMUSIC_PASSWORD: "",
     CONF_FILE_ENABLED: False,
     CONF_FILE_DIRECTORY: "",
+    CONF_PLEX_ENABLED: False,
+    CONF_PLEX_TOKEN: "",
 }
 
 
@@ -177,6 +181,12 @@ def get_music_schema(cur_conf: dict):
             ): bool,
             vol.Optional(
                 CONF_FILE_DIRECTORY, default=cur_conf[CONF_FILE_DIRECTORY]
+            ): str,
+            vol.Required(
+                CONF_PLEX_ENABLED, default=cur_conf.get(CONF_PLEX_ENABLED, False)
+            ): bool,
+            vol.Optional(
+                CONF_PLEX_TOKEN, default=cur_conf.get(CONF_PLEX_TOKEN, "")
             ): str,
         }
     )
